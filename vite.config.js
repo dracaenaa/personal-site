@@ -14,4 +14,7 @@ export default defineConfig({
     },
     extensions: ['.js', '.vue'],
   },
+  exports: {
+    publicPath: '/personal-site/',
+  },
 })
