@@ -135,6 +135,18 @@ header .wrapper {
   padding: 4px;
 }
 
+.button-style {
+  display: flex;
+  place-items: center;
+  place-content: center;
+  min-width: 40px;
+  min-height: 40px;
+  color: var(--color-text);
+  border: 1px solid hsl(307, 100%, 37%);
+  background: var(--color-background);
+  border-radius: 8px;
+  padding: 10px;
+}
 @media (hover: hover) {
   a:hover {
     background-color: hsla(307, 100%, 37%, 0.2);

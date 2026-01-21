@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { PhGithubLogo, PhLinkedinLogo } from '@phosphor-icons/vue'
-</script>
-
 <template>
   <div class="flex w-full justify-between">
     <div>
@@ -20,6 +16,13 @@ import { PhGithubLogo, PhLinkedinLogo } from '@phosphor-icons/vue'
       <a href="https://github.com/dracaenaa" target="_blank">
         <PhGithubLogo size="30px" />
       </a>
+      <a href="mailto:mirandabkolker@yahoo.com">
+        <PhEnvelope size="30px" />
+      </a>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { PhEnvelope, PhGithubLogo, PhLinkedinLogo } from '@phosphor-icons/vue'
+</script>
