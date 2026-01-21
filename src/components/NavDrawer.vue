@@ -8,7 +8,7 @@
         <nav>
           <RouterLink to="/" @click="close">home</RouterLink>
           <RouterLink to="/about" @click="close">about</RouterLink>
-          <a href="https://github.com/dracaenaa" @click="close">my github</a>
+          <a href="https://github.com/dracaenaa" target="_blank">my github</a>
         </nav>
       </section>
       <footer class="drawer-footer">

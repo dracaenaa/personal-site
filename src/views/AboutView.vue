@@ -2,61 +2,37 @@
   <main>
     <div class="flex flex-col items-center gap-5">
       <BasicInfo />
-      <ul class="about-list">
-        <li>
-          <PhCode class="icon-style" />
-          <h3>
-            Hello! I'm a full-stack software developer with 3 years of experience in professional
-            programming and over 5 years of experience total in the IT industry.
+      <h3>Hiya!</h3>
+      <h3 class="pb-10">
+        I'm a full-stack programmer who is passionate about providing an amazing end result and who
+        values diversity, equity, and inclusion. Here's a bit about my professional experience:
+      </h3>
+      <AboutList class="pb-10" />
+      <div class="flex flex-col py-10 border-t gap-5">
+        <div class="flex flex-col md:flex-row gap-5">
+          <PhLightbulb class="icon-style" />
+          <h3 class="w-full">
+            I'm always learning and trying new things in my professional and personal life
           </h3>
-        </li>
-        <li>
-          <PhSparkle class="icon-style" />
-          <h3>
-            As co-founder of Freedom Pipeline, a JusticeTech social enterprise, I'm passionate about
-            my work, and strive to meet the end user's needs the best that I can.
-          </h3>
-        </li>
-        <li>
-          <PhHeadCircuit class="icon-style" />
-          <h3>
-            My experience as an IT specialist in a helpdesk environment developed my problem-solving
-            skills and base technical knowledge.
-          </h3>
-        </li>
-        <li>
-          <PhUsersThree class="icon-style" />
-          <h3>
-            Working as a software consultant polished those skills while teaching me to work in a
-            collaborative environment, working together to build a robust and complex application.
-          </h3>
-        </li>
-        <li>
-          <PhHandHeart class="icon-style" />
-          <h3>
-            As co-founder and founding engineer of a social enterprise, all of this knowledge went
-            towards helping a traditionally underserved population navigate reentry.
-          </h3>
-        </li>
-        <li>
-          <PhBuildingOffice class="icon-style" />
-          <h3>
-            Being a co-founder also taught me how to run a business and manage internal operations.
-          </h3>
-        </li>
-      </ul>
+        </div>
+        <div class="flex flex-col justify-between gap-5">
+          <div class="flex justify-between gap-5">
+            <h3>whether it's picking up knitting</h3>
+            <h3>or learning to snowboard</h3>
+          </div>
+          <div class="flex justify-between gap-5">
+            <img src="../assets/knitting.png" class="w-1/2 h-55 md:h-125 object-cover" />
+            <img src="../assets/snowboarding.png" class="w-1/2 h-55 md:h-125 object-cover" />
+          </div>
+        </div>
+        <h3>I'm always looking for a challenge and an adventure!</h3>
+      </div>
     </div>
   </main>
 </template>
 
 <script setup>
 import BasicInfo from '@/components/BasicInfo.vue'
-import {
-  PhBuildingOffice,
-  PhCode,
-  PhHandHeart,
-  PhHeadCircuit,
-  PhSparkle,
-  PhUsersThree,
-} from '@phosphor-icons/vue'
+import AboutList from '@/components/AboutList.vue'
+import { PhLightbulb } from '@phosphor-icons/vue'
 </script>

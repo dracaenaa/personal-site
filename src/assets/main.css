@@ -95,9 +95,16 @@ h3 {
   font-size: 1.2rem;
 }
 
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .personal-info h1,
 .personal-info h2,
-.personal-info h3 {
+.personal-info h3,
+.personal-info h4 {
   text-align: center;
 }
 

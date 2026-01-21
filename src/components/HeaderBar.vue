@@ -16,7 +16,7 @@
       <nav>
         <RouterLink to="/">home</RouterLink>
         <RouterLink to="/about">about</RouterLink>
-        <a href="https://github.com/dracaenaa">my github</a>
+        <a href="https://github.com/dracaenaa" target="_blank">my github</a>
       </nav>
     </div>
     <div v-else>

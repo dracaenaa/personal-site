@@ -1,9 +1,3 @@
-<script setup>
-import { RouterView } from 'vue-router'
-// import Greeting from './components/GreetingMessage.vue'
-import HeaderBar from './components/HeaderBar.vue'
-</script>
-
 <template>
   <header>
     <HeaderBar />
@@ -12,8 +6,12 @@ import HeaderBar from './components/HeaderBar.vue'
   <RouterView class="main-content" />
 
   <footer>
-    <a href="https://www.flaticon.com/free-icons/houseplant" title="houseplant icons"
-      >Houseplant icons created by MetamorphLab - Flaticon</a
-    >
+    <TheFooter />
   </footer>
 </template>
+
+<script setup>
+import { RouterView } from 'vue-router'
+import HeaderBar from './components/HeaderBar.vue'
+import TheFooter from './components/TheFooter.vue'
+</script>
