@@ -1,11 +1,7 @@
-<script setup>
-import GreetingMessage from '@/components/GreetingMessage.vue'
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup></script>
 
 <template>
   <main>
-    <GreetingMessage />
-    <TheWelcome />
+    <h2>home page</h2>
   </main>
 </template>

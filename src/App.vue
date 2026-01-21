@@ -9,7 +9,8 @@ import HeaderBar from './components/HeaderBar.vue'
     <HeaderBar />
   </header>
 
-  <RouterView />
+  <RouterView class="main-content" />
+
   <footer>
     <a href="https://www.flaticon.com/free-icons/houseplant" title="houseplant icons"
       >Houseplant icons created by MetamorphLab - Flaticon</a
