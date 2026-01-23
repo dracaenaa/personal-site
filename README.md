@@ -4,4 +4,6 @@ My personal website used to display details about myself and my professional car
 
 ## Tech Stack
 
-Written in JavaScript in Vue.js, will be hosted in GH Pages.
+Written in JavaScript in Vue.js, hosted in GH Pages.
+
+https://dracaenaa.github.io/personal-site/
