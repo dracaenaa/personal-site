@@ -11,8 +11,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix --cache",
-    "format": "prettier --write --experimental-cli src/",
-    "deploy": "npm run build && git diff --quiet dist || (git add dist && git commit -m 'update production version') && git subtree push --prefix dist origin gh-pages"
+    "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
     "@phosphor-icons/vue": "^2.2.1",
