@@ -11,7 +11,7 @@ import { PhGithubLogo, PhInfo } from '@phosphor-icons/vue'
     </h3>
     <div class="flex flex-col items-start gap-3 py-5">
       <h2>Check out my Github to see some of my work:</h2>
-      <a href="https://github.com/dracaenaa" class="button-style gap-1">
+      <a href="https://github.com/dracaenaa" class="button-style gap-1" target="_blank">
         <PhGithubLogo size="30px" />
         <h3>[dracaenaa]</h3>
       </a>
