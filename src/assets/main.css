@@ -4,12 +4,11 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 a,
@@ -34,7 +33,7 @@ body {
 .main-content {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 92%;
   padding-top: 10px;
   padding-bottom: 60px;
 }
@@ -128,7 +127,7 @@ header .wrapper {
   place-content: center;
   min-width: 40px;
   min-height: 40px;
-  color: var(--color-text);
+  color: hsl(307, 100%, 37%);
   border: 1px solid var(--color-border);
   background: var(--color-background);
   border-radius: 8px;
@@ -150,6 +149,7 @@ header .wrapper {
 @media (hover: hover) {
   a:hover {
     background-color: hsla(307, 100%, 37%, 0.2);
+    border-radius: 2%;
   }
 }
 
@@ -274,4 +274,65 @@ header .wrapper {
 .drawer-footer {
   display: flex;
   justify-content: flex-end;
+}
+
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+}
+
+.outer {
+  border-left: 2px solid #333;
+}
+
+.timeline-card {
+  margin: 0 0 20px 20px;
+  padding: 15px 15px 15px 0px;
+  background: var(--vt-c-white-mute);
+  color: var(--vt-c-text-light-1);
+  border-radius: 8px;
+}
+
+.timeline-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeline-time {
+  font-size: small;
+}
+
+.timeline-title {
+  color: hsl(307, 100%, 37%);
+}
+
+.dot-style {
+  min-width: 25px;
+  min-height: 25px;
+  color: hsl(307, 100%, 37%);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 2px;
+  position: relative;
+  right: 33px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .timeline-card {
+    background: var(--vt-c-black-mute);
+    color: var(--vt-c-text-dark-1);
+  }
+
+  .title::before {
+    border: 2px solid var(--vt-c-text-dark-1);
+  }
+}
+
+@media (min-width: 1024px) {
+  .timeline-info {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
 }

@@ -8,6 +8,7 @@
         <nav>
           <RouterLink to="/" @click="close">home</RouterLink>
           <RouterLink to="/about" @click="close">about</RouterLink>
+          <RouterLink to="/history" @click="close">history</RouterLink>
           <a href="https://github.com/dracaenaa" target="_blank">my github</a>
         </nav>
       </section>

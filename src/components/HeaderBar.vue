@@ -16,6 +16,7 @@
       <nav>
         <RouterLink to="/">home</RouterLink>
         <RouterLink to="/about">about</RouterLink>
+        <RouterLink to="/history">history</RouterLink>
         <a href="https://github.com/dracaenaa" target="_blank">my github</a>
       </nav>
     </div>
