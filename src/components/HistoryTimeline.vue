@@ -48,19 +48,19 @@ let historyItems = [
     title: 'Tech Elevator',
     body: 'Tech Elevator was short but intense, and taught me the fundamentals of software development and good development standards. I was nicknamed the "object-oriented princess" by my peers and was the unofficial valedictorian by my instructors, due to my top scores and my going out of my way to help my classmates.',
     time: 'late 2022',
-    image: 'src/assets/te_grad.png',
+    image: '../assets/te_grad.png',
   },
   {
     title: 'First programming job at CGI',
     body: 'I received my offer letter for a software consultant role at CGI right around my Tech Elevator graduation. There, I joined the Early Career Program and was instructed on consulting and on different programming and technical concepts. After this several-week-long program, I was immediately placed on a high-performing team at a commercial insurance client, where I later joined the unofficial architecture team. I attended a few conferences while there and assisted in our student programming mentorship programs.',
     time: '2023-2025',
-    image: 'src/assets/cgi_conf.png',
+    image: '../assets/cgi_conf.png',
   },
   {
     title: 'Freedom Pipeline - passion project startup',
     body: 'In late 2024, I participated in the Columbus GiveBackHack event, where I formed Freedom Pipeline with my teammates. I eventually left CGI too pursue this passion project, and as co-founder and founding engineer I was responsible for a great deal of the project. I learned a lot about business and operations, and I heavily participated in the prototyping and user research for our application.',
     time: '2024-2026',
-    image: 'src/assets/reentry_mixer.png',
+    image: '../assets/reentry_mixer.png',
   },
   {
     title: 'Now',
