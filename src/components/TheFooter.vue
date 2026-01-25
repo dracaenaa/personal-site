@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full justify-between">
+  <div class="flex w-full justify-between pb-10">
     <div>
       <p>Site made by me :3</p>
       <a
