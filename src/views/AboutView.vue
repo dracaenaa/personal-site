@@ -21,8 +21,11 @@
             <h3>or learning to snowboard</h3>
           </div>
           <div class="flex justify-between gap-5">
-            <img src="../assets/knitting.png" class="w-1/2 h-55 md:h-125 object-cover" />
-            <img src="../assets/snowboarding.png" class="w-1/2 h-55 md:h-125 object-cover" />
+            <img src="../assets/knitting.png" class="w-1/2 h-55 md:h-125 rounded-sm object-cover" />
+            <img
+              src="../assets/snowboarding.png"
+              class="w-1/2 h-55 md:h-125 rounded-sm object-cover"
+            />
           </div>
         </div>
         <h3>I'm always looking for a challenge and an adventure!</h3>
