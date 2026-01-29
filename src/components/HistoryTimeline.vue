@@ -58,7 +58,7 @@ let historyItems = [
   },
   {
     title: 'Freedom Pipeline - passion project startup',
-    body: 'In late 2024, I participated in the Columbus GiveBackHack event, where I formed Freedom Pipeline with my teammates. I eventually left CGI too pursue this passion project, and as co-founder and founding engineer I was responsible for a great deal of the project. I learned a lot about business and operations, and I heavily participated in the prototyping and user research for our application.',
+    body: 'In late 2024, I participated in the Columbus GiveBackHack event, where I formed Freedom Pipeline with my teammates. I eventually left CGI to pursue this passion project, and as co-founder and founding engineer I was responsible for a great deal of the project. I learned a lot about business and operations, and I heavily participated in the prototyping and user research for our application.',
     time: '2024-2026',
     image: 'reentry_mixer.png',
   },
