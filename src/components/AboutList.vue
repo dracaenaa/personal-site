@@ -3,8 +3,8 @@
     <li>
       <PhCode class="icon-style" />
       <h3>
-        Full-stack software developer with 3 years of experience in professional programming and
-        over 5 years of experience total in the IT industry.
+        Full-stack software developer with 3 years of experience in professional programming and 6
+        years of experience overall in the IT industry.
       </h3>
     </li>
     <li>
