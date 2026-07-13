@@ -16,6 +16,7 @@
   "dependencies": {
     "@phosphor-icons/vue": "^2.2.1",
     "@tailwindcss/vite": "^4.1.18",
+    "posthog-js": "^1.399.3",
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"
