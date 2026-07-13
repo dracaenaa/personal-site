@@ -1,5 +1,10 @@
 <script setup>
 import { PhGithubLogo, PhInfo } from '@phosphor-icons/vue'
+import posthog from 'posthog-js'
+
+const handleGithubClick = () => {
+  posthog.capture('github_link_clicked')
+}
 </script>
 
 <template>
@@ -20,7 +25,7 @@ import { PhGithubLogo, PhInfo } from '@phosphor-icons/vue'
       </h4>
       <div class="flex flex-col items-start gap-3 py-5">
         <h2>Check out my Github to see some of my work:</h2>
-        <a href="https://github.com/dracaenaa" class="button-style gap-1" target="_blank">
+        <a href="https://github.com/dracaenaa" class="button-style gap-1" target="_blank" @click="handleGithubClick">
           <PhGithubLogo size="30px" />
           <h3>[dracaenaa]</h3>
         </a>

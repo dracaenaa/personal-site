@@ -38,6 +38,7 @@ let isDesktopView = window.innerWidth >= 1024
 
 <script>
 import NavDrawer from './NavDrawer.vue'
+import posthog from 'posthog-js'
 
 export default {
   name: 'App',
@@ -52,6 +53,7 @@ export default {
   methods: {
     showDrawer() {
       this.isDrawerVisible = true
+      posthog.capture('mobile_nav_opened')
     },
     closeDrawer() {
       this.isDrawerVisible = false
